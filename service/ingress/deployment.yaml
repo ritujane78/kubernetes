@@ -20,7 +20,7 @@ spec:
         server: web
     spec:
       containers:
-        - name: webserver
+        - name: webserver 
           image: httpd:2.4
           resources:
             requests:
